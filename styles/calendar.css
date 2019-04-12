@@ -1,0 +1,215 @@
+header {
+	height: 150px;
+}
+
+#months ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+#months li {
+    font-size:20px;
+    font-weight: bold;
+    padding: 4px;
+    color: #0D1317;
+}
+
+#months li:hover {
+    color:#6564DB; 
+}
+
+.calendar {
+    box-sizing: border-box; 
+}
+
+.calendar th {
+    width: 50px;
+    height: 20px;
+}
+
+.calendar td {
+    max-width: 45px;
+    height: 75px;
+    border: 1px solid black;
+    position: relative;
+    padding: 0;
+}
+
+
+.calendar span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+
+.calendar_item {
+    color: black;
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 12px;
+    border-radius: 1px;
+    overflow: hidden;
+}
+
+.calendar_item:hover {
+    cursor: pointer;
+    box-shadow: 1px 1px black;
+}
+
+.grey{
+    color:gray; 
+}
+
+/* Calendar Details */
+
+#calendar_details {
+    padding: 50px 0 0 0;
+    
+}
+
+#calendar_details ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid black;
+}
+
+ 
+/* Classes */
+
+.holiday {
+    background-color: black;
+    color: white;
+}
+
+.flex_day {
+    background-color: cyan;
+}
+
+.orientation {
+    background-color: bisque;
+}
+
+.WebDesign {
+    background-color: green;
+}
+
+.Java {
+    background-color: skyblue;
+}
+
+.OOC {
+    background-color: blueviolet;
+    color: white;
+}
+
+.Database {
+    background-color: blueviolet;
+    color: white;
+}
+
+.SaD {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Angular {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.LINQ {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.presentation_skills {
+    background-color: brown;
+    color: white;
+}
+
+.project1 {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Javascript {
+    background-color: yellow;
+}
+
+.ASPNETMVC {
+    background-color: blueviolet;
+    color: white;
+}
+
+.Android {
+    background-color: skyblue;
+}
+
+.ASPNETAPI {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.PHP {
+    background-color: greenyellow;
+}
+
+.Security {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Laravel {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.MEAN {
+    background-color: violet;
+}
+
+.iOS {
+    background-color: blueviolet;
+    color: white;
+}
+
+.project2 {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.aws {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.project3 {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.Resume {
+    background-color: brown;
+    color: white;
+}
+
+.Interview {
+    background-color: brown;
+    color: white;
+}
+
+.Industry {
+    box-sizing: border-box;
+    border: 1px solid black;
+}

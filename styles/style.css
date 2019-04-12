@@ -1,0 +1,350 @@
+
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
+html, body, main{
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow-x: hidden;
+}
+		
+
+body {
+	width: 100%;
+	background-color: grey;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	background-color: grey;
+}
+
+/* General Nav Styles */
+
+nav {
+	padding-left: 10px;
+	background-color: #101d42;
+	display: flex;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+nav li {
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	text-align: center;
+	display: block;
+}
+
+
+nav li a:hover {
+	background-color: #6564db;
+}
+
+/* General Main Styles */
+
+main {
+	background-color: white;
+}
+
+@media screen and (min-width: 600px) {
+
+
+	/* Navigation Style */
+
+	nav {
+		justify-content: space-between;
+		height: 50px;
+	}
+
+	nav ul {		
+		width: 60%;		
+		justify-content: space-between;		
+	}
+
+	nav li {
+		width: 25%;
+	}
+
+	/* End of Navigation */
+
+
+	/* Header Style */
+
+	header {
+		margin: 0;
+		height: 150px;
+	}
+
+	/* End of Header */
+
+
+	/* Main Style */
+	
+	main {
+		flex-wrap: nowrap;
+		display: flex; 
+	}
+
+	#eresources_section_left{
+		width: 60%;
+		padding: 20px 20px 0 20px;
+		
+	}
+
+	#home_section_left {
+		width: 60%;
+		padding: 20px 20px 0 20px;
+	}
+
+	#home_section_right {
+		width: 40%;
+		padding: 20px 20px 0 20px;
+	}
+
+	#home_section_right img {
+		max-width: 100%;
+	}
+
+	main h2 {
+		font-family: 'Space Mono', monospace;
+		margin: 0;
+		font-size: 28px;
+	}
+
+	main h3 {
+		font-size: 22px;
+		color: #6564db
+	}
+
+	main h4 {
+		font-size: 18px;
+		color: #0d1317
+	}
+
+	main a {
+		color: #232ed1;
+		text-decoration: none;
+	}
+
+	main a:hover {
+		color: #6564db;
+	}
+
+	main p {
+		font-size: 18px;
+		width: 80%;
+	}
+	/* End Of Main Styles */
+
+	/* Hide the following items */
+
+	.hamburger {
+		display: none;
+	}
+
+	.desktop-footer {
+		display: block;
+	}
+
+}
+
+@media screen and (max-width: 599px) { 
+
+	p, h2, h3, h4, li {
+		padding: 0 10px 0 10px;
+	}
+
+	.hamburger {
+		color: white;
+		font-size: 35px;
+		line-height: 50px;
+		padding-right: 5px;
+	}
+
+	.hamburger:hover {
+		cursor: pointer;
+	}
+
+	nav ul {
+		overflow: hidden;
+		height: 0;
+		position: absolute;
+		left: 0;
+		top: 50px;
+		flex-direction: column;
+		background-color: #101d42;
+		width: 45%;
+
+		transition-property: all;
+		transition-duration: .5s;
+		transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	}
+
+	#home_section_left {
+		width: 100%;
+	}
+	#home_section_right img {
+		display: none;
+	}
+
+	.desktop-footer {
+		display: none;
+	}
+}
+
+/* Link Bar */
+
+.link_bar {
+	margin-bottom: 5px;
+	width: 100%;
+	display: block;
+	height: 40px;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #101d42;
+	color: white;
+}
+
+.link_bar:hover { 
+	cursor: pointer;
+}
+
+.course_table {
+	width: 50%;
+}
+
+
+/* BCIT gentable Class */
+table.gentable {
+	margin:1em 0;
+	border-spacing:0;
+	border-collapse:collapse;
+	border:1px solid #ebebec;
+	border-width:0;
+	width: 100%
+}
+.gentable th, .gentable caption {
+	border-top:1px solid #ccc;
+	border-right:0;
+	border-bottom:1px solid #aaa;
+	border-left:0;
+	padding:5px 10px;
+	background-color:#f1f1f1;
+	color:#101d42;
+	font-weight:bold;
+	text-align:left;
+	vertical-align:top
+}
+.gentable td {
+	border:1px solid #ebebec;
+	border-width:1px 0 1px 0;
+	padding:10px 10px 5px 10px;
+	vertical-align:top
+}
+.gentable .odd td,.gentable td.odd 
+{
+	background-color:#eee
+}
+
+/* Footer Styles */
+
+footer{
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #101d42;
+	color: white;
+	font-family: Helvetica, Sans-Serif;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer h4 {
+	margin: 0 0 5px 0;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+}
+
+footer a:hover {
+	color: #6564db;
+}
+
+/* Course Overview Styles */
+
+.course-table {
+	font-size: 18px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+
+.course-heading{
+	font-size: 20px;
+	font-weight: bold 
+}
+
+.course-table-title{
+	font-size: 28px;
+	font-weight: bold 
+}
+
+.contact-table{
+	font-size: 18px;
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 40px;
+}
+
+/* Enrollment Styles */
+
+.applyButton {
+	text-align: left;
+	background-color: #101d42;
+	color: white;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 24px;
+	height: 50px;
+	width: 200px;
+	margin: 0 0 10px 20px;
+}
+
+.sendButton {
+	text-align: left;
+	background-color: #101d42;
+	color: white;
+	font-family: Helvetica, Sans-Serif;
+	font-size: 20px;
+	height: 30px;
+	width: 150px;
+	margin-top: 5px;
+}
+
+.applyButton:hover {
+	background-color: #0d1317
+}
+
+.bcit_logo {
+	height: 100px;
+	width: 100px;
+}
