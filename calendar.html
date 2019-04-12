@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SSD: Students</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="./styles/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link rel="stylesheet" type="text/css" href="./styles/calendar.css">
+	<link rel="stylesheet" type="text/css" href="./styles/bootstrap_tables.css">
+	
+
+	<script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script src="navigation.js"></script>
+	
+
+    <script src="calendar/calendar.js"></script> 
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<nav>
+			<span class="hamburger">&#9776;</span>
+			<a class="title" href="index.html">BCIT : Software System Developer</a>
+			<ul id="navigation">				
+				<li><a href="calendar.html">Students</a></li>
+				<li><a href="enrollment.html">Enrollment</a></li>
+				<li><a href="faculty.html">Faculty</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		<header>
+			<img src="./resources/images/spring_cropped.jpg" alt="site_header" />
+		</header>
+		
+		<main>
+			<section id="home_section_left">
+			    <div id="months">
+                    <ul>
+						<li onclick="showSeptember()">Sept</li>
+						<li onclick="showOctober()">October</li>
+						<li onclick="showNovember()">Novemeber</li>
+						<li onclick="showDecember()">Decemeber</li>
+						<li onclick="showJanuary()">January</li>
+						<li onclick="showFebuary()">Febuary</li>
+						<li onclick="showMarch()">March</li>
+						<li onclick="showApril()">April</li>
+						<li onclick="showMay()">May</li>
+                    </ul>
+                </div>
+                <div id="calendar"></div>
+			</section>
+			<section id="home_section_right">
+				<div id="calendar_details">
+					<ul>
+						<li>Class: -</li>
+						<li>Professor: -</li>
+						<li>Time: -</li>
+						<li>Room: -</li>
+					</ul>
+				</div>
+				<div>
+					<a class="link_bar" href="courseoverview.html">Course Summaries</a>
+					<a class="link_bar" href="faculty.html">Professor Information</a>
+					<a class="link_bar" href="students.html">Student Information</a>
+					<a class="link_bar" href="eresources.html">E-Resources</a>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<ul class="desktop-footer">
+				<li><h4>NAVIGATE</h4></li>
+				<li><a href="calendar.html">Students</a></li>
+				<li><a href="enrollment.html">Enrollment</a></li> 
+				<li><a href="faculty.html">Faculty</a></li>
+				<li><a href="contact.html">Contact</a></li>  
+			</ul>
+
+			<ul class="desktop-footer">
+				<li><h4>FIND</h4></li>
+				<li><a href="calendar.html">Calendar</a></li>
+				<li><a href="courseoverview.html">Course Summaries</a></li> 
+			</ul>
+
+			<ul class="desktop-footer">
+				<li><h4>CONNECT</h4></li>
+				<li><a href="https://www.bcit.ca">BCIT Home</a></li>
+				<li><a href="https://www.bcitsa.ca">BCIT Student Association</a></li>
+				<li><a href="https://www.bcit.ca/contacts/">Phone Book</a></li>
+			</ul>
+			<ul>
+				<li><h4>BCIT Downtown Campus</h4></li>
+				<li>555 Seymour Street</li> 
+				<li>Vancouver BC</li> 
+				<li>Canada, V5G 3H2</li>
+				<li>Tel: (604) 434-5734</li>
+			</ul>
+
+			<img src="./resources/images/bcit_logo.png" class="bcit_logo" alt="bcit_logo"/>
+		</footer>
+	</div>
+</body>
+
+
+
+
+
+
+</html>
+
+

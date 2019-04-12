@@ -1,0 +1,8 @@
+Front-End Web Design
+
+Project 02 - Build a BCIT SSD Program Web Site
+
+Stephen Syrnyk - A00955336
+Jordan Perrella - A00860798
+
+GitHub url: https://github.com/jlperrella/SSD-Website
